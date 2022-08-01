@@ -21,7 +21,7 @@ public class BinaryTreeAssignment
 
             string output = _binaryTreeTraverseOperations.TraverseBinaryTree(rootNode);
 
-            Console.WriteLine(output);
+            Console.Write(output);
         }
         catch (Exception ex)
         {

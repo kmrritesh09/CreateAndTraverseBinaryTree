@@ -2,7 +2,7 @@
 
 public class BinaryTreeTraverseOperations : IBinaryTreeTraverseOperations
 {
-    string output = null!;
+    public string? output { get; set; }
     public string TraverseBinaryTree(Node rootNode)
     {
         output = string.Empty;

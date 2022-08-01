@@ -8,5 +8,6 @@ string lineOfNumbers = Console.ReadLine()!;
 BinaryTreeAssignment treeAssignment = new BinaryTreeAssignment(new BinaryTreeCreateOperations(), new BinaryTreeTraverseOperations());
 treeAssignment.ProcessBinaryTreeAssignment(lineOfNumbers);
 
+Console.WriteLine();
 Console.WriteLine("Please press enter to close the application");
 Console.ReadLine();
