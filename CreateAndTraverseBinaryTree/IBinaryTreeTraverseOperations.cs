@@ -2,5 +2,5 @@
 
 public interface IBinaryTreeTraverseOperations
 {
-    void TraverseBinaryTree(Node rootNode);
+    string TraverseBinaryTree(Node rootNode);
 }

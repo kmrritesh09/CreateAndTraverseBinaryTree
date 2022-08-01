@@ -19,9 +19,9 @@ public class BinaryTreeAssignment
 
             Node rootNode = _binaryTreeCreateOperations.CreateBinaryTree(listOfNumbers);
 
-            _binaryTreeTraverseOperations.TraverseBinaryTree(rootNode);
+            string output = _binaryTreeTraverseOperations.TraverseBinaryTree(rootNode);
 
-            Console.WriteLine();
+            Console.WriteLine(output);
         }
         catch (Exception ex)
         {

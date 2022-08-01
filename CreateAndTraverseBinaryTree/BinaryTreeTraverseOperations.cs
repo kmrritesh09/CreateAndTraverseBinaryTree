@@ -3,14 +3,14 @@
 public class BinaryTreeTraverseOperations : IBinaryTreeTraverseOperations
 {
     string output = null!;
-    public void TraverseBinaryTree(Node rootNode)
+    public string TraverseBinaryTree(Node rootNode)
     {
         output = string.Empty;
 
         PostOrderTraversalOfBinaryTree(rootNode);
         output = output.TrimEnd(' ');
         output = output.TrimEnd(',');
-        Console.WriteLine(output);
+        return output;
     }
 
     public void PostOrderTraversalOfBinaryTree(Node node)
